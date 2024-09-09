@@ -6,3 +6,6 @@ let precoFinal = produto - desconto
 
 alert('O preço atual do produto é: ' + precoFinal)
 
+if(precoFinal > 90){
+    alert('A compra pode ser divida em 3 vezes.')
+}

@@ -1,8 +1,9 @@
-let dias = parseInt(prompt('Digite a quantidade de dias: '))
+let dia = parseInt(prompt('Digite a quantidade de dias: '))
 
-let horas = dias*24
-let minutos = horas*60
-let segundos = minutos*60
+let hora = dia*24
+let minuto = hora*60
+let segundo = minuto*60
 
-alert(`Fazem exatamente ${horas} horas, ${minutos} minutos e ${segundos} segundos.`)
-
+alert(`A quantidade de dias em hora é ${hora}`)
+alert(`A quantidade de dias em minutos é ${minuto}`)
+alert(`A quantidade de dias em segundos é ${segundo}`)

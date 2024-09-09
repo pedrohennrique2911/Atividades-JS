@@ -1,4 +1,4 @@
 let numero = Number(prompt('Digite um número: '))
-let quadrado = numero * numero
+let quadrado = numero **2
 
-alert('O número digitado ao quadrado é ' + quadrado)
+alert(`O quadrado do número ${numero} é ${quadrado}`)
